@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: parrotstream/impala-kudu:latest
+    image: emac/impala-kudu:latest
     external_links:
     - hadoop
     - hive
