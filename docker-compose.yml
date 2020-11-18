@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: emacoo/impala-kudu:latest
+    image: emacoo/impala-kudu:cdh5
     external_links:
     - hadoop
     - hive
